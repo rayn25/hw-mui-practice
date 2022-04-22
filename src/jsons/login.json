@@ -1,0 +1,14 @@
+{
+  "account": [
+    {
+      "id": "bee.manager",
+      "password" : "bee.manager",
+      "name" : "김형우"
+    },
+    {
+      "id": "admin",
+      "password" : "admin",
+      "name" : "김형우"
+    }
+  ]
+}
