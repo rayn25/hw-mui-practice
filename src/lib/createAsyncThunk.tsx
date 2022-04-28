@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 import { AsyncActionCreator } from 'typesafe-actions';
-import { AnyAsyncActionCreator } from '../types';
+import { AnyAsyncActionCreator } from 'types';
 
 export default function createAsyncThunk<
     A extends AnyAsyncActionCreator,

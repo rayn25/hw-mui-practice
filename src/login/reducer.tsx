@@ -1,7 +1,7 @@
 import { createReducer } from 'typesafe-actions';
 import { LoginState, LoginAction } from './types';
 import { LOGIN, LOGIN_SUCCESS, LOGIN_ERROR, LoginAsync } from './actions';
-import { asyncState, createAsyncReducer, transformToArray } from '../lib/reducerUtils';
+import { asyncState, createAsyncReducer, transformToArray } from 'lib/reducerUtils';
 
 const initialState: LoginState = {
     User: asyncState.initial(),

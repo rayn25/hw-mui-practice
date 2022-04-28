@@ -1,5 +1,5 @@
 import { createAsyncAction } from 'typesafe-actions';
-import { User } from '../api/login';
+import { User } from 'api/login';
 import { AxiosError } from 'axios';
 
 // 액션 타입을 선언

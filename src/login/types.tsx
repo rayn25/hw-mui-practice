@@ -1,7 +1,7 @@
 import * as actions from './actions';
 import { ActionType } from 'typesafe-actions';
-import { User } from '../api/login';
-import { AsyncState } from '../lib/reducerUtils';
+import { User } from 'api/login';
+import { AsyncState } from 'lib/reducerUtils';
 
 export type LoginAction = ActionType<typeof actions>;
 

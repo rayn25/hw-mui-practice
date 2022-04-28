@@ -1,9 +1,9 @@
 // import { ThunkAction } from 'redux-thunk';
-// import { RootState } from '../reducer';
+// import { RootState } from 'reducer';
 // import { LoginAction } from './types';
-import { login } from '../api/login';
+import { login } from 'api/login';
 import { LoginAsync } from './actions';
-import CreateAsyncThunk from '../lib/createAsyncThunk';
+import CreateAsyncThunk from 'lib/createAsyncThunk';
 
 /*
 export function LoginThunk(

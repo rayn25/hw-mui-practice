@@ -2,13 +2,21 @@
   "account": [
     {
       "id": "bee.manager",
-      "password" : "bee.manager",
-      "name" : "김형우"
+      "password": "bee.manager",
+      "name": "김형우"
     },
     {
       "id": "admin",
-      "password" : "admin",
-      "name" : "김형우"
+      "password": "admin",
+      "name": "김형우"
+    },
+    {
+      "id": "lb6fXKW",
+      "password": ""
+    },
+    {
+      "id": "gR6mpU2",
+      "password": ""
     }
   ]
 }

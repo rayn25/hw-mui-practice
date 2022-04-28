@@ -1,7 +1,7 @@
 import { LoginAsync, LOGIN } from './actions';
-import { login, User } from '../api/login';
+import { login, User } from 'api/login';
 import { call, put, takeEvery } from 'redux-saga/effects';
-import createAsyncSaga from '../lib/createAsyncSaga';
+import createAsyncSaga from 'lib/createAsyncSaga';
 
 /*
 function* loginRequest(action: ReturnType<typeof LoginAsync.request>) {
